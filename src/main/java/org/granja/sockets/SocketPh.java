@@ -48,7 +48,8 @@ public class SocketPh {
                 nuevoRegistro.setId_remitente(Long.parseLong(messageJson.get("id_remitente").toString()));
                 nuevoRegistro.setId_destinatario(Long.parseLong(messageJson.get("id_destinatario").toString()));
                 nuevoRegistro.setMensaje(messageJson.get("mensaje").toString());
-                nuevoRegistro.setFecha(messageJson.get("fecha").toString()); 
+                nuevoRegistro.setFecha(messageJson.get("fecha").toString());
+//                rest.postJson(nuevoRegistro);
                 break;
         }
          

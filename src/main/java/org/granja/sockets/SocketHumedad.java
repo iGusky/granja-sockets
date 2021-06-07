@@ -66,6 +66,7 @@ public class SocketHumedad{
                 nuevoRegistro.setMensaje(messageJson.get("mensaje").toString());
                 nuevoRegistro.setFecha(messageJson.get("fecha").toString());
                 int index = messageJson.get("zona").hashCode();
+//                rest.postJson(nuevoRegistro);
                 System.out.println(index);
                     
         }
